@@ -1,0 +1,70 @@
+body {font-family: Helvetica, Arial, sans-serif; font-size: 12px}
+/*  @media (min-width: 992px) {
+    .container {width: 980px}
+} */
+
+
+/*  Start: Upper Bluebar */
+.upper-bluebar {background-color: #3b5998; max-height: 83px}
+.upper-bluebar .container {width: 1015px}
+.upper-bluebar .facebook-image {max-height: 100%; padding-top: 26px}
+.upper-bluebar form {color: #fff; overflow: hidden}
+.upper-bluebar form div {margin-right: 14px}
+@media (max-width: 1199px) {
+    .upper-bluebar form div:first-child {margin-left: 0}
+}
+.upper-bluebar form div input {width: 150px; height: 23px; border-color: #1d2a5b; border-radius: 0; padding: 3px; margin-bottom: 4px}
+.upper-bluebar form label {margin-top: 13px; margin-bottom: 3px}
+.upper-bluebar form span {color: #9cb4d8; cursor: pointer}
+.upper-bluebar form span:hover {text-decoration: underline}
+.upper-bluebar form input[type=submit] {height: 24px; width: 50px; background-color: #4267b2; border-color: #29487d; margin-top: 34px; border-radius: 0; font-weight: bold; color: #fff; line-height: 0; padding: 11px 2px 11px 2px; font-size: 12px}
+.upper-bluebar form input[type=submit]:hover {background-color: #365899; text-decoration: none}
+@media (max-width: 506px) {
+    .upper-bluebar form input[type=submit] {width: 44px}
+}
+/*  End: Upper Bluebar */
+
+
+/*  Start: Middle Part */
+.middle-part {padding: 40px 0; background: linear-gradient(white, #D3D8E8)}
+.middle-part .container {width: 1015px}
+.middle-part .content {margin-bottom: 40px}
+.middle-part .content p {color: #0e385f; font-size: 20px; font-weight: bold; line-height: 29px; width: 450px; word-spacing: -1px}
+.middle-part .create-account-form {margin-left: 80px; margin-top: -20px}
+.middle-part .create-account-form p {font-size: 19px; line-height: 1.34}
+.middle-part .create-account-form p span {font-size: 36px; font-weight: 600; display: block; margin-bottom: 5px}
+.middle-part form {max-width: 400px}
+.middle-part form div {margin-bottom: 10px}
+.middle-part form div:first-child, .middle-part form div:nth-child(2) {display: inline-block; width: 198px}
+.middle-part form div:first-child, .middle-part form div:nth-child(2), .middle-part form div:nth-child(3), .middle-part form div:nth-child(4) {position: relative}
+.middle-part form div input {padding: 8px 10px; font-size: 18px; border-color: #bdc7d8; border-radius: 5px}
+.middle-part form div input::placeholder {color: #999}
+.middle-part form div:nth-of-type(5) label, .middle-part form div:nth-of-type(6) label {color: #90949c; font-size: 16px; font-weight: bold}
+.middle-part form div:nth-of-type(5) select {font-size: 13px; height: 30px; padding: 5px; border: 1px solid #ccd0d5}
+.middle-part form div:last-of-type span {margin-left: 4px; font-size: 18px}
+.middle-part form div:last-of-type input:first-of-type {margin-left: 10px}
+.middle-part form div:last-of-type + p {line-height: 1.34; width: 316px; font-size: 11px; color: #777}
+.middle-part form div:last-of-type + p a {color: #385898; text-decoration: none}
+.middle-part form div:last-of-type + p a:hover {text-decoration: underline}
+.middle-part form i.fa-exclamation-circle {display: none; color: #be4b49; font-size: 21px; position: absolute !important; top: 11px; left: 170px}
+.middle-part form div:nth-of-type(3) i.fa-exclamation-circle, .middle-part form div:nth-of-type(4) i.fa-exclamation-circle {left: 370px}
+.middle-part .question-mark i {margin-left: 10px; max-width: 150px; width: 16px; height: 16px; font-size: 17px; color: #636363; cursor: pointer}
+.middle-part .create-account-form form div div.speech-bubble1 {display: none; width: 150px; height: 45px; background-color: #be4b49; position: absolute; top: -4px; left: -167px; color: #fff; line-height: 45px; text-align: center; font-size: 13px; border-radius: 3px}
+.middle-part .speech-bubble1::after {content: ''; display: block; height: 0; width: 0; border-width: 15px 0 15px 15px; border-style: solid; border-color: transparent #be4b49; position: absolute; top: 8px; left: 150px}
+.middle-part form input[type=submit] {font-size: 19px; font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important; font-weight: bold !important; letter-spacing: normal; text-rendering: optimizelegibility; line-height: 126%; min-width: 194px; padding: 7px 20px; text-align: center; background: linear-gradient(#67ae55, #578843); background-color: #69a74e; box-shadow: inset 0 1px 1px #a4e388; border-color: #3b6e22 #3b6e22 #2c5115; text-shadow: 0 1px 2px rgba(0,0,0,.5)}
+.middle-part .create-account-form form + p:last-of-type {margin-top: 30px; color: #666; font-size: 13px; font-weight: bold}
+.middle-part .create-account-form form + p:last-of-type a {color: #385898; text-decoration: none}
+.middle-part .create-account-form form + p:last-of-type a:hover {text-decoration: underline}
+/*  End: Middle Part */
+
+
+/*  Start: Footer */
+footer {padding-top: 45px}
+footer .container {width: 1010px}
+footer ul.language li {float: left; margin-right: 10px}
+footer ul.language li a, ul.others li a {color: #385898}
+footer ul.language li:first-child a {color: #737373}
+footer ul.others li {float: left; margin-right: 20px}
+footer hr {margin: 10px 0 10px 0}
+footer .copyright {margin: 20px 0 20px 0; font-size: 11px; color: #737373}
+/*  End: Footer */
